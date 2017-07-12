@@ -1,0 +1,22 @@
+with std.io;
+with gnu.io;
+
+@@
+
+A : Integer;
+B : float = 3.42;
+
+function foo(X:Integer;) return integer
+{
+	--Function Code Goes in here
+	get(X);
+	X=X+2;
+
+	return X;
+}
+
+@@
+
+A=foo(A);
+put(A);
+put(B);

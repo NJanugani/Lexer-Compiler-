@@ -1,0 +1,30 @@
+With std.io;
+wITh gnu.io;
+
+@@
+
+A : InteGer;
+B : aRRay[3] of fLoAt;
+
+function foo(X:Integer;) return integer
+{
+	get(X);--comments
+	X=X+2;
+	while(variable>=100)
+	{
+		if(true)
+		{}
+		else
+		{}
+	}
+	return X;
+}
+
+@@
+
+/*multi
+line
+comments*/
+A=foo(A);
+put(A);
+put(B[2]);
